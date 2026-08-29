@@ -54,10 +54,10 @@ function ProjectMedia({
   );
 }
 
-function ProjectLinks({ project, hideLive }: { project: Project; hideLive?: boolean }) {
+function ProjectLinks({ project }: { project: Project }) {
   const { t } = useLanguage();
 
-  const showLive = project.liveUrl && !hideLive;
+  const showLive = Boolean(project.liveUrl);
   if (!project.githubUrl && !showLive) return null;
 
   return (
@@ -145,7 +145,7 @@ export default function ProjectCard({ project }: { project: Project }) {
           ))}
         </ul>
 
-        <ProjectLinks project={project} hideLive={Boolean(project.videoSrc)} />
+        <ProjectLinks project={project} />
       </div>
     </article>
   );

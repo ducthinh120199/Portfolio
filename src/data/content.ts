@@ -76,11 +76,11 @@ export const content: Record<Locale, ContentShape> = {
       eyebrow: "Hi, I'm",
       role: "Full-stack Developer",
       intro:
-        "For 5+ years I've been the bridge between enterprise systems — D365, Oracle APEX — and modern web front ends. Lately I've been teaching myself Spring Boot on my own projects, closing the loop to full-stack.",
+        "Full-stack Developer with 5+ years of experience — particularly strong in frontend development and enterprise systems integration — building scalable web applications and customizing Microsoft Dynamics 365 (CRM). I'm also growing my backend expertise in Java/Spring Boot through personal projects, closing the loop to full-stack.",
       ctaProjects: "View projects",
       ctaCv: "Download CV",
       ctaContact: "Get in touch",
-      quickFacts: "5+ years experience · Next.js, React, Vue · learning Spring Boot",
+      quickFacts: "5+ years experience · Frontend & D365 (CRM) · growing backend with Java/Spring Boot",
       portraitAlt: "Portrait of Nguyễn Đức Thịnh",
     },
     about: {
@@ -88,7 +88,7 @@ export const content: Record<Locale, ContentShape> = {
       title: "Background",
       timelineLabel: "Timeline",
       paragraph:
-        "5+ years building software, with real depth in frontend (Next.js, React, Vue) and system integration (Microsoft D365, Oracle APEX/PL-SQL). Right now I'm deliberately going deeper into Java and Spring Boot through personal projects, rounding out a full-stack skill set.",
+        "5+ years of experience as a Full-stack Developer, particularly strong in frontend development (Next.js, React, Vue.js) and enterprise systems integration — customizing Microsoft Dynamics 365 (CRM) and working on Oracle APEX/PL-SQL. Strong in system integration, automation, and cloud deployment (Google Cloud, Firebase, Cloudflare), with growing backend expertise in Java/Spring Boot through personal projects.",
     },
     skills: {
       label: "Skills",
@@ -134,11 +134,11 @@ export const content: Record<Locale, ContentShape> = {
       eyebrow: "Xin chào, mình là",
       role: "Full-stack Developer",
       intro:
-        "Hơn 5 năm nay mình là cầu nối giữa hệ thống doanh nghiệp — D365, Oracle APEX — với các ứng dụng web hiện đại. Gần đây mình tự học Spring Boot qua các dự án cá nhân để khép kín năng lực full-stack.",
+        "Full-stack Developer với hơn 5 năm kinh nghiệm — mạnh nhất ở mảng frontend và tích hợp hệ thống doanh nghiệp — xây dựng ứng dụng web quy mô lớn và customize Microsoft Dynamics 365 (CRM). Mình cũng đang phát triển thêm năng lực backend với Java/Spring Boot qua các dự án cá nhân để khép kín full-stack.",
       ctaProjects: "Xem dự án",
       ctaCv: "Tải CV",
       ctaContact: "Liên hệ",
-      quickFacts: "5+ năm kinh nghiệm · Next.js, React, Vue · đang học Spring Boot",
+      quickFacts: "5+ năm kinh nghiệm · Frontend & D365 (CRM) · đang phát triển backend với Java/Spring Boot",
       portraitAlt: "Chân dung Nguyễn Đức Thịnh",
     },
     about: {
@@ -146,7 +146,7 @@ export const content: Record<Locale, ContentShape> = {
       title: "Hành trình",
       timelineLabel: "Dòng thời gian",
       paragraph:
-        "5+ năm kinh nghiệm phát triển phần mềm, mạnh về Frontend (Next.js/React/Vue) và System Integration (Microsoft D365, Oracle APEX/PL-SQL). Hiện mình đang chủ động học sâu Java/Spring Boot qua các dự án cá nhân để hoàn thiện năng lực full-stack.",
+        "Hơn 5 năm kinh nghiệm làm Full-stack Developer, mạnh nhất ở frontend (Next.js, React, Vue.js) và tích hợp hệ thống doanh nghiệp — customize Microsoft Dynamics 365 (CRM) và làm việc trên Oracle APEX/PL-SQL. Mạnh về system integration, automation và triển khai cloud (Google Cloud, Firebase, Cloudflare), đồng thời đang phát triển thêm năng lực backend với Java/Spring Boot qua các dự án cá nhân.",
     },
     skills: {
       label: "Kỹ năng",

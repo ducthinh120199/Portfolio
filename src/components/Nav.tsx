@@ -29,12 +29,22 @@ export default function Nav() {
           <button
             type="button"
             onClick={toggleLocale}
+            aria-pressed={locale === "vi"}
             aria-label="Toggle language"
-            className="rounded-full border border-line px-3 py-1.5 font-mono text-xs uppercase tracking-[0.06em] text-ink-muted transition-colors hover:text-ink"
+            className="relative inline-flex h-8 w-18 shrink-0 items-center rounded-full bg-ink p-1 transition-colors"
           >
-            <span className={locale === "en" ? "text-ink" : undefined}>EN</span>
-            <span className="mx-1 text-line">/</span>
-            <span className={locale === "vi" ? "text-ink" : undefined}>VI</span>
+            <span className="flex w-full items-center justify-between px-2 font-mono text-[10px] tracking-[0.06em] text-paper/50 uppercase">
+              <span>EN</span>
+              <span>VI</span>
+            </span>
+            <span
+              aria-hidden="true"
+              className={`pointer-events-none absolute top-1 left-1 flex h-6 w-8 items-center justify-center rounded-full bg-paper font-mono text-[10px] font-semibold tracking-[0.06em] text-ink uppercase shadow-sm transition-transform duration-300 ${
+                locale === "vi" ? "translate-x-8" : "translate-x-0"
+              }`}
+            >
+              {locale}
+            </span>
           </button>
           <Link
             href="#contact"

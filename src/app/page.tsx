@@ -5,8 +5,12 @@ import Projects from "@/components/Projects";
 import Feedback from "@/components/Feedback";
 import TikTok from "@/components/TikTok";
 import Contact from "@/components/Contact";
+import { site } from "@/data/site";
+import { getTikTokEmbeds } from "@/lib/tiktok";
 
-export default function Home() {
+export default async function Home() {
+  const tiktokVideos = await getTikTokEmbeds(site.tiktok.videoUrls);
+
   return (
     <>
       <Hero />
@@ -14,7 +18,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Feedback />
-      <TikTok />
+      <TikTok videos={tiktokVideos} />
       <Contact />
     </>
   );

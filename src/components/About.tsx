@@ -5,7 +5,7 @@ import { useLanguage } from "@/lib/language";
 import SectionHeading from "./SectionHeading";
 
 export default function About() {
-  const { t } = useLanguage();
+  const { t, locale } = useLanguage();
 
   return (
     <section id="about" className="reveal bg-paper/75 backdrop-blur-xl">
@@ -23,7 +23,7 @@ export default function About() {
                   aria-hidden="true"
                 />
                 <p className="font-mono text-xs uppercase tracking-[0.06em] text-ink-muted">
-                  {item.period}
+                  {item.period[locale]}
                 </p>
                 <p className="font-display text-lg font-semibold text-ink">{item.org}</p>
               </li>
