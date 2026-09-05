@@ -34,14 +34,14 @@ export default function TikTok({ videos }: { videos: TikTokEmbed[] }) {
         </p>
 
         {videos.length > 0 ? (
-          <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-8 flex snap-x snap-mandatory gap-4 overflow-x-auto px-2 py-2 -mx-2 sm:mx-0 sm:grid sm:grid-cols-2 sm:gap-6 sm:overflow-visible sm:px-0 sm:py-0 lg:grid-cols-3">
             {videos.map((video) => (
               <a
                 key={video.url}
                 href={video.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative aspect-9/16 w-full max-w-72 overflow-hidden rounded-2xl border border-line bg-black shadow-sm"
+                className="group relative aspect-9/16 w-56 shrink-0 snap-center overflow-hidden rounded-2xl border border-line bg-black shadow-sm sm:w-full sm:max-w-72 sm:shrink"
               >
                 {/* eslint-disable-next-line @next/next/no-img-element -- signed, expiring TikTok CDN thumbnail; next/image domain allowlisting isn't worth it here */}
                 <img
