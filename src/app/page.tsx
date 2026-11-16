@@ -8,8 +8,8 @@ import Contact from "@/components/Contact";
 import { site } from "@/data/site";
 import { getTikTokEmbeds } from "@/lib/tiktok";
 
-export default async function Home() {
-  const tiktokVideos = await getTikTokEmbeds(site.tiktok.videoUrls);
+export default function Home() {
+  const tiktokVideos = getTikTokEmbeds(site.tiktok.videoUrls);
 
   return (
     <>

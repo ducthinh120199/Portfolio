@@ -76,11 +76,11 @@ export const content: Record<Locale, ContentShape> = {
       eyebrow: "Hi, I'm",
       role: "Full-stack Developer",
       intro:
-        "Full-stack Developer with 5+ years of experience — particularly strong in frontend development and enterprise systems integration — building scalable web applications and customizing Microsoft Dynamics 365 (CRM). I'm also growing my backend expertise in Java/Spring Boot through personal projects, closing the loop to full-stack.",
+        "Full-stack Developer with 6 years of experience — particularly strong in frontend development and enterprise systems integration — building scalable web applications and customizing Microsoft Dynamics 365 (CRM). I'm also growing my backend expertise in Java/Spring Boot, and looking to contribute to enterprise digital transformation projects with a long-term growth mindset.",
       ctaProjects: "View projects",
       ctaCv: "Download CV",
       ctaContact: "Get in touch",
-      quickFacts: "5+ years experience · Frontend & D365 (CRM) · growing backend with Java/Spring Boot",
+      quickFacts: "6 years experience · Frontend & D365 (CRM) · growing backend with Java/Spring Boot",
       portraitAlt: "Portrait of Nguyễn Đức Thịnh",
     },
     about: {
@@ -88,7 +88,7 @@ export const content: Record<Locale, ContentShape> = {
       title: "Background",
       timelineLabel: "Timeline",
       paragraph:
-        "5+ years of experience as a Full-stack Developer, particularly strong in frontend development (Next.js, React, Vue.js) and enterprise systems integration — customizing Microsoft Dynamics 365 (CRM) and working on Oracle APEX/PL-SQL. Strong in system integration, automation, and cloud deployment (Google Cloud, Firebase, Cloudflare), with growing backend expertise in Java/Spring Boot through personal projects.",
+        "6 years of experience as a Full-stack Developer, particularly strong in frontend development (Next.js, React, Vue.js) and enterprise systems integration — customizing Microsoft Dynamics 365 (CRM) and working on Oracle APEX/PL-SQL. At VUS I've shipped systems end-to-end as the main contributor — Digital Class Folder (rolled out nationwide, saving an estimated 450M+ VND/year), an AI grading system using the Gemini API, and 7 internal sub-systems — while setting up and tuning the servers behind them (a background job cut from 24+ hours to 13 minutes). Strong in system integration, automation, and cloud deployment (Google Cloud, Firebase, Cloudflare, Heroku, Docker), with growing backend expertise in Java/Spring Boot, Redis, and Kafka.",
     },
     skills: {
       label: "Skills",
@@ -134,11 +134,11 @@ export const content: Record<Locale, ContentShape> = {
       eyebrow: "Xin chào, mình là",
       role: "Full-stack Developer",
       intro:
-        "Full-stack Developer với hơn 5 năm kinh nghiệm — mạnh nhất ở mảng frontend và tích hợp hệ thống doanh nghiệp — xây dựng ứng dụng web quy mô lớn và customize Microsoft Dynamics 365 (CRM). Mình cũng đang phát triển thêm năng lực backend với Java/Spring Boot qua các dự án cá nhân để khép kín full-stack.",
+        "Full-stack Developer với 6 năm kinh nghiệm — mạnh nhất ở mảng frontend và tích hợp hệ thống doanh nghiệp — xây dựng ứng dụng web quy mô lớn và customize Microsoft Dynamics 365 (CRM). Mình cũng đang phát triển thêm năng lực backend với Java/Spring Boot, và mong muốn đóng góp vào các dự án chuyển đổi số doanh nghiệp với định hướng gắn bó lâu dài.",
       ctaProjects: "Xem dự án",
       ctaCv: "Tải CV",
       ctaContact: "Liên hệ",
-      quickFacts: "5+ năm kinh nghiệm · Frontend & D365 (CRM) · đang phát triển backend với Java/Spring Boot",
+      quickFacts: "6 năm kinh nghiệm · Frontend & D365 (CRM) · đang phát triển backend với Java/Spring Boot",
       portraitAlt: "Chân dung Nguyễn Đức Thịnh",
     },
     about: {
@@ -146,7 +146,7 @@ export const content: Record<Locale, ContentShape> = {
       title: "Hành trình",
       timelineLabel: "Dòng thời gian",
       paragraph:
-        "Hơn 5 năm kinh nghiệm làm Full-stack Developer, mạnh nhất ở frontend (Next.js, React, Vue.js) và tích hợp hệ thống doanh nghiệp — customize Microsoft Dynamics 365 (CRM) và làm việc trên Oracle APEX/PL-SQL. Mạnh về system integration, automation và triển khai cloud (Google Cloud, Firebase, Cloudflare), đồng thời đang phát triển thêm năng lực backend với Java/Spring Boot qua các dự án cá nhân.",
+        "6 năm kinh nghiệm làm Full-stack Developer, mạnh nhất ở frontend (Next.js, React, Vue.js) và tích hợp hệ thống doanh nghiệp — customize Microsoft Dynamics 365 (CRM) và làm việc trên Oracle APEX/PL-SQL. Tại VUS, mình làm end-to-end với vai trò main contributor — Digital Class Folder (triển khai toàn quốc, tiết kiệm ước tính hơn 450 triệu VND/năm), hệ thống chấm điểm bằng AI dùng Gemini API, và 7 sub-system nội bộ — đồng thời tự dựng và tối ưu server phía sau (một background job giảm từ hơn 24 giờ xuống 13 phút). Mạnh về system integration, automation và triển khai cloud (Google Cloud, Firebase, Cloudflare, Heroku, Docker), đồng thời đang phát triển thêm backend với Java/Spring Boot, Redis và Kafka.",
     },
     skills: {
       label: "Kỹ năng",

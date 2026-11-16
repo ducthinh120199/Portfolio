@@ -65,6 +65,53 @@ export const projects: Project[] = [
     videoSrc: "/videos/projects/momentum.mp4",
   },
   {
+    slug: "rag-chatbot",
+    title: "RAG Chatbot",
+    description: {
+      en: "A retrieval-augmented chatbot built from scratch in Python — no frameworks — and deployed live on Streamlit Cloud.",
+      vi: "Chatbot RAG (retrieval-augmented) tự viết từ đầu bằng Python — không dùng framework — và deploy chạy thật trên Streamlit Cloud.",
+    },
+    highlights: [
+      {
+        en: "Hybrid search (dense + BM25 + RRF) with cross-encoder reranking, source citations, and OCR fallback for scanned PDFs",
+        vi: "Hybrid search (dense + BM25 + RRF) kèm cross-encoder reranking, trích dẫn nguồn và OCR fallback cho PDF scan",
+      },
+      {
+        en: "Agent that routes between semantic search and Text-to-SQL on Postgres with SQL guardrails — list-type question accuracy rose from 5/16 to 16/16",
+        vi: "Agent tự chọn giữa semantic search và Text-to-SQL trên Postgres, có SQL guardrails — độ chính xác câu hỏi dạng liệt kê tăng từ 5/16 lên 16/16",
+      },
+      {
+        en: "Retry/rate-limit handling, incremental data sync (CDC), RAGAS evaluation, and latency profiling",
+        vi: "Xử lý retry/rate-limit, đồng bộ dữ liệu incremental (CDC), đánh giá bằng RAGAS và đo latency",
+      },
+    ],
+    tech: ["Python", "Gemini API", "ChromaDB", "pgvector", "PostgreSQL", "Streamlit", "Docker", "Ollama"],
+  },
+  {
+    slug: "design-to-production",
+    title: "Design-to-Production Automation",
+    description: {
+      en: "A fully automated workflow that carries a Figma design change all the way through to the live page, with no manual steps.",
+      vi: "Workflow tự động hoàn toàn, đưa một thay đổi thiết kế trên Figma đi thẳng tới trang live mà không cần thao tác tay.",
+    },
+    tech: ["Figma API", "Anthropic SDK"],
+  },
+  {
+    slug: "dev-assistant-bot",
+    title: "Dev Assistant Bot",
+    description: {
+      en: "A chat agent that automatically pulls the latest Git changes at the start of each day when the machine is opened.",
+      vi: "Chat agent tự động pull thay đổi Git mới nhất mỗi sáng khi mở máy.",
+    },
+    highlights: [
+      {
+        en: "Runs on a local LLM (Ollama), so no code leaves the machine",
+        vi: "Chạy trên LLM local (Ollama), code không rời khỏi máy",
+      },
+    ],
+    tech: ["Python", "Ollama", "Git"],
+  },
+  {
     slug: "seckill",
     title: "Seckill — Flash Sale System",
     description: {
@@ -73,6 +120,7 @@ export const projects: Project[] = [
     },
     tech: ["Java", "Spring Boot", "Redis", "Kafka", "MySQL"],
     githubUrl: "https://github.com/ducthinh120199",
-    imageSrc: undefined,
+    // Tạm thời dùng diagram kiến trúc — thay bằng screenshot/demo thật khi có.
+    imageSrc: "/images/projects/seckill.svg",
   },
 ];

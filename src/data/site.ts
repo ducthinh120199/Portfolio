@@ -14,15 +14,15 @@ export const site = {
     vn: "+84792844082",
     sg: "+84865541926",
   },
-  cvUrl: "/cv/CV_NguyenDucThinh_General.pdf",
+  cvUrl: "/cv/CV_NguyenDucThinh.pdf",
   portraitSrc: "/images/profile/portrait.jpg" as string | undefined,
   timeline: [
     {
-      period: { en: "10/2020 — 08/2022", vi: "10/2020 — 08/2022" } as LocalizedText,
+      period: { en: "10/2020 — 08/2023", vi: "10/2020 — 08/2023" } as LocalizedText,
       org: "JV-IT Techs",
     },
     {
-      period: { en: "08/2022 — Present", vi: "08/2022 — nay" } as LocalizedText,
+      period: { en: "08/2023 — Present", vi: "08/2023 — nay" } as LocalizedText,
       org: "VUS",
     },
   ],

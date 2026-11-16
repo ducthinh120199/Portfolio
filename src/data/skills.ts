@@ -6,7 +6,7 @@ export type SkillGroup = {
   items: string[];
 };
 
-// Nguồn: public/cv/CV_NguyenDucThinh_General.pdf (mục TECHNICAL SKILLS) — giữ đúng theo CV,
+// Nguồn: public/cv/CV_NguyenDucThinh.pdf (mục TECHNICAL SKILLS) — giữ đúng theo CV,
 // không tự thêm công nghệ ngoài CV.
 export const skillGroups: SkillGroup[] = [
   {
@@ -45,12 +45,21 @@ export const skillGroups: SkillGroup[] = [
   {
     category: "Cloud & DevOps",
     icon: "cloud",
-    items: ["Google Cloud", "Firebase", "Cloudflare", "Git", "CI/CD"],
+    items: ["Google Cloud", "Firebase", "Cloudflare", "Heroku", "Docker", "Git", "CI/CD"],
   },
   {
     category: "AI Tools",
     icon: "ai",
-    items: ["OpenAI API", "Google Gemini API", "v0.dev", "Lovable", "Google AI Studio"],
+    items: [
+      "OpenAI API",
+      "Google Gemini API",
+      "Anthropic SDK",
+      "Ollama (local LLM)",
+      "RAG",
+      "v0.dev",
+      "Lovable",
+      "Google AI Studio",
+    ],
   },
   {
     category: "Design",
