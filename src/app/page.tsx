@@ -5,12 +5,8 @@ import Projects from "@/components/Projects";
 import Feedback from "@/components/Feedback";
 import TikTok from "@/components/TikTok";
 import Contact from "@/components/Contact";
-import { site } from "@/data/site";
-import { getTikTokEmbeds } from "@/lib/tiktok";
 
 export default function Home() {
-  const tiktokVideos = getTikTokEmbeds(site.tiktok.videoUrls);
-
   return (
     <>
       <Hero />
@@ -18,7 +14,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Feedback />
-      <TikTok videos={tiktokVideos} />
+      <TikTok />
       <Contact />
     </>
   );

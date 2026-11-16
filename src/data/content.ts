@@ -54,6 +54,7 @@ export type ContentShape = {
     description: string;
     pendingVideos: string;
     visitChannel: string;
+    watchOnTikTok: string;
   };
   contact: {
     label: string;
@@ -114,6 +115,7 @@ export const content: Record<Locale, ContentShape> = {
       description: "A channel where I share bite-sized coding lessons.",
       pendingVideos: "Videos coming soon — waiting on links to embed",
       visitChannel: "Visit channel",
+      watchOnTikTok: "Watch on TikTok",
     },
     contact: {
       label: "Contact",
@@ -172,6 +174,7 @@ export const content: Record<Locale, ContentShape> = {
       description: "Kênh chia sẻ những bài học code ngắn gọn, dễ hiểu.",
       pendingVideos: "Video sắp có — đang chờ link để nhúng",
       visitChannel: "Ghé kênh",
+      watchOnTikTok: "Xem trên TikTok",
     },
     contact: {
       label: "Liên hệ",

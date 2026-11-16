@@ -29,10 +29,29 @@ export const site = {
   tiktok: {
     handle: "@thinhbuilds",
     url: "https://www.tiktok.com/@thinhbuilds",
-    videoUrls: [
-      "https://www.tiktok.com/@thinhbuilds/video/7648905721676827911",
-      "https://www.tiktok.com/@thinhbuilds/video/7665135985822403848",
-      "https://www.tiktok.com/@thinhbuilds/video/7651638734684769554"
-    ] as string[],
+    // Static cards (self-hosted cover + link out) instead of TikTok's iframe player:
+    // the player's API returns 403 when the browser blocks third-party storage
+    // (empty msToken), which showed "Player authentication failed" to those visitors.
+    // Covers: public/images/tiktok/<video id>.jpg (9:16).
+    videos: [
+      {
+        url: "https://www.tiktok.com/@thinhbuilds/video/7648905721676827911",
+        title: "Khi bạn mới nhận dự án .NET mà không một ai bàn giao…",
+        duration: "0:43",
+        cover: "/images/tiktok/7648905721676827911.jpg",
+      },
+      {
+        url: "https://www.tiktok.com/@thinhbuilds/video/7665135985822403848",
+        title: "EP 05: Figma đổi 1 nút — GitHub tự có PR",
+        duration: "2:07",
+        cover: "/images/tiktok/7665135985822403848.jpg",
+      },
+      {
+        url: "https://www.tiktok.com/@thinhbuilds/video/7651638734684769554",
+        title: "EP 02: Oracle APEX & GitHub Copilot",
+        duration: "0:41",
+        cover: "/images/tiktok/7651638734684769554.jpg",
+      },
+    ] as { url: string; title: string; duration: string; cover: string }[],
   },
 };
